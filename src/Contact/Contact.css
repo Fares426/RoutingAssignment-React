@@ -1,0 +1,62 @@
+.contactTitle {
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(44, 62, 80);
+    font-weight: 700;
+}
+
+.star-icon-contact {
+    position: relative;
+    text-align: center;
+  }
+  
+  .star-icon-contact::before {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: rgb(44, 62, 80);
+    left: 40%;
+  }
+
+  .star-icon-contact::after {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: rgb(44, 62, 80);
+    right: 40%;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .star-icon-contact::before {
+      content: "";
+      position: absolute; 
+      width: 100px;
+      height: 4px;
+      top: 40%;
+      background-color: rgb(44, 62, 80);
+      left: 25%;
+    }
+  
+    .star-icon-contact::after {
+      content: "";
+      position: absolute; 
+      width: 100px;
+      height: 4px;
+      top: 40%;
+      background-color: rgb(44, 62, 80);
+      right: 25%;
+    }
+
+    .contactTitle {
+      font-size: 30px;
+      line-height: 48px;
+      color: rgb(44, 62, 80);
+      font-weight: 700;
+  }
+  }

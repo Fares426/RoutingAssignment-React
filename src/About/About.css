@@ -1,0 +1,65 @@
+.star-icon1 {
+    position: relative;
+  }
+  
+.star-icon1::before {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: white;
+    left: 42%;
+  }
+
+.star-icon1::after {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: white;
+    right: 42%;
+  }
+
+.about-title {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width: 768px) {
+  .star-icon1::before {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: white;
+    left: 25%;
+  }
+
+.star-icon1::after {
+    content: "";
+    position: absolute; 
+    width: 100px;
+    height: 4px;
+    top: 40%;
+    background-color: white;
+    right: 25%;
+  }
+
+  .about-title {
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+
+}
+
+.p-holder {
+  flex-direction: column;
+}
+}
+
+  
