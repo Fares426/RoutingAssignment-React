@@ -2,7 +2,7 @@
   "name": "assignment1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Fares426.github.io/RoutingAssignment-React",
+  "homepage": "https://Fares426.github.io/RoutingAssignment",
   "type": "module",
   "scripts": {
     "dev": "vite",
